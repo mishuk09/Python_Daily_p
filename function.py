@@ -2,39 +2,38 @@
     print("Mahadi")
     print("Hasan")
     print("Mishuk")
-myfunction()'''
+myfunction()
 
-'''hello()
+hello()
 def hello():
     print("mahadi")
-'''
+ 
 
 
-'''def welcome():
+def welcome():
     name=input()
     print("Welcome "+name)
-welcome()'''
+welcome() 
 
 
 
-'''def function(word):
+def function(word):
     print(word +  "!")
 
 function("mango")
 function("apple")
 function("orange")
 
-print(2* 3)'''
+print(2* 3) 
 
-
-'''
+ 
 def sum(x,y):
     print(x+y)
     print(x-y)
-sum(20,10)'''
+sum(20,10) 
 
 
-'''password = input()
+password = input()
 repeat = input()
 
 def validate(text1, text2):
@@ -44,7 +43,29 @@ def validate(text1, text2):
 	else:
 		print("Wrong")
 		
-validate(password,repeat)'''
+validate(password,repeat) 
 
 
+def function(variable):
+    variable += 1
+    print(variable)
+
+function(10)
+print(variable)
+ 
+
+
+
+def max(x,y):
+    if x>y:
+        return x
+
+    else:
+        return y
+    
+ 
+print(max(10,20))
+
+z=max(5,8)
+print(z)'''
 
