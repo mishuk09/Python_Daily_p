@@ -69,3 +69,51 @@ print(max(10,20))
 z=max(5,8)
 print(z)'''
 
+
+
+'''
+s = input()
+
+def hashtagGen(text):
+	#your code goes here
+	text1= text.replace(' ','')
+	return text1
+ 
+print('#'+ hashtagGen(s))
+
+'''
+
+'''def sum(word):
+    print(word+"!")
+
+sum("Mahadi")'''
+
+'''
+def multi(x,y):
+    return x*y
+
+result=multi(10,20)
+print(result)'''
+
+
+
+'''def add(x, y):
+    return x + y
+
+def do_twice(func, x, y):
+    return func(func(x, y), func(x, y))
+
+a = 5
+b = 10
+
+print(do_twice(add, a, b))'''
+
+'''import random
+
+for i in range(5):
+    Value=random.randint(1, 6)
+    print(Value)'''
+
+import math
+num = 10
+print (math.sqrt(num))
