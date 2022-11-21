@@ -1,13 +1,24 @@
-num=int(input("Enter the number that you want="))
+ 
+num = int(input("How many terms= "))
 
-n1,n2=0,1
+ 
+n1, n2 = 0, 1
+count = 0
 
-
-for i in range(num):
-     n1=n2
-     n2=n3
-     n1+n2
-print(n3)
-
-
+ 
+if num <= 0:
+   print("Please enter a positive integer")
+ 
+elif num == 1:
+   print("Fibonacci sequence upto",num,":")
+   print(n1)
+ 
+else:
+   print("Fibonacci sequence:")
+   while count < num:
+       print(n1)
+       nth = n1 + n2
+       n1 = n2
+       n2 = nth
+       count += 1
     
