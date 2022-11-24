@@ -142,14 +142,7 @@ print(f'{num2}+{num1}={num1+num2}',end=" ")
 
 # Relational operator and bulian
 
-> বড়
-< ছোট
-<= সমান অথবা ছোট
->= সমান অথবা বড়
-== সমান
-!= সমান নয়
-a=b   = b এর মান এ এঁর মধ্যে আছে
-a==b এ আন্ড বি সমান
+ 
 
 print(12>16)
 print(12<16)
