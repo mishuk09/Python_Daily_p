@@ -1,5 +1,10 @@
-num=int(input("Inter number"))
-fact=1
-for i in range(1,num+1):
-    fact=fact*i 
-print(fact)
+'''
+i=0
+while i<=10:
+    print(i)
+        i=i+1'''
+
+num=[1,2,3,4,5,6,7,8,9]
+
+for x in num:
+    print(x)

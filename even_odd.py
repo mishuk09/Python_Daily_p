@@ -1,7 +1,5 @@
-num=int(input("Enter number that you want="))
 
-if (num%2==0):
-    print("Number is even")
-else:
-    print("Number is odd")
-    
+# Print 1 to 1000 by using for loop
+
+for x in range(1,100,2):
+    print(x)
