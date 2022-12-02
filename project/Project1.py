@@ -57,27 +57,34 @@ if (ch == 1):
 
 elif (ch == 2):
     print("You select", + quantity,
-          "Cup of cofe and you have to pay", + 40 * quantity, "INR \n")
+          "Cup of cofee and you have to pay", + 40 * quantity, "INR \n")
 elif (ch == 3):
     print("You select", + quantity,
-          "Cup of cofe and you have to pay", + 100 * quantity, "INR \n")
+          "  Sandwise and you have to pay", + 100 * quantity, "INR \n")
 elif (ch == 4):
     print("You select", + quantity,
-          "Cup of cofe and you have to pay", + 80 * quantity, "INR \n")
+          " Bargar and you have to pay", + 80 * quantity, "INR \n")
 elif (ch == 5):
     print("You select", + quantity,
-          "Cup of cofe and you have to pay", + 250 * quantity, "INR \n")
+          " Pizza and you have to pay", + 250 * quantity, "INR \n")
+
+
+# payment option
+
 
 print("Select your payment option")
 print("1.Cash")
 print("2.Online \n ")
+
 ch2 = int(input("Enter your choose="))
+
 if (ch2 == 1):
     print("Download Recipt \n ")
 elif (ch2 == 2):
     print("Select Your option=")
     print("1.UPI")
     print("2.Bank card")
+
     ch3 = int(input("Enter your choose="))
 
     if (ch3 == 1):
