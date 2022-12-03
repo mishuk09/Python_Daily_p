@@ -1,4 +1,4 @@
-
+'''
 #print welcome message
 
 print("Welcome To Our Restaurant,We are here to give you best service")
@@ -42,4 +42,10 @@ elif(ch==4):
     print("Bargar=",+ 80 * Quality)
 elif(ch==5):
     print("Pizza=",+ 250 * Quality)
- 
+ '''
+
+
+num = int(input("Enter="))
+
+for i in range(num):
+    print(i)

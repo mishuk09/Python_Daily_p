@@ -15,21 +15,32 @@ print("5.Pizza")
 
 ch = int(input("Enter your choose Item="))
 
-if (ch == 1):
-    print("Tea-----20inr \n")
-    print("How many cup of tea you want?")
-elif (ch == 2):
-    print("Cofy-----40inr \n")
-    print("How many cup of Cofe you want?")
-elif (ch == 3):
-    print("Sandwise-----100inr \n")
-    print("How many Sandwise you want?")
-elif (ch == 4):
-    print("Bargar-----80inr \n")
-    print("How many Bargar you want?")
-elif (ch == 5):
-    print("Pizza------250inr \n")
-    print("How many Pizza you want?")
+
+for i in ch:
+    if ch> 6:
+        print("Invalid input! Please try again")
+        break
+
+    elif (ch == 1):
+        print("Tea-----20inr \n")
+        print("How many cup of tea you want?")
+        break
+    elif (ch == 2):
+        print("Cofy-----40inr \n")
+        print("How many cup of Cofe you want?")
+        break
+    elif (ch == 3):
+        print("Sandwise-----100inr \n")
+        print("How many Sandwise you want?")
+        break
+    elif (ch == 4):
+        print("Bargar-----80inr \n")
+        print("How many Bargar you want?")
+        break
+    elif (ch == 5):
+        print("Pizza------250inr \n")
+        print("How many Pizza you want?")
+        break
 
 
 # Quantity of product
