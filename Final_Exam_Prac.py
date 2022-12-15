@@ -229,3 +229,37 @@ print(a)
 for i in name:
     print(i)
 '''
+
+
+# LIST
+
+
+'''num = [1, 2, 3, 4, 5, 6, 7, 8]
+num2 = num.copy()
+print(num2)
+'''
+
+'''num = [1, 2, 3, 4, 5, 6, 7, 8]
+
+print(num.count(4))'''
+
+'''name=["MAHADI","HASNA","MISHUK"]
+a=name.index("HASAN")
+print(a)'''
+
+
+# reverse number
+
+'''num = [1, 2, 3, 4, 5, 6]
+num.reverse()
+print(num)
+
+
+name = ["MAHADI", "MISHUK"]
+name.insert(1, "HASAN")
+print(name)
+'''
+
+
+
+
