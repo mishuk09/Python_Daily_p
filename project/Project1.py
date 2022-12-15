@@ -37,7 +37,6 @@ elif (ch == 5):
     print("How many Pizza you want?")
 
 
-
 # Quantity of product
 
 quantity = int(input("Enter Quantity & see tha total price="))
