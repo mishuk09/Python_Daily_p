@@ -74,3 +74,46 @@ else:
 
 
     '''
+
+
+# even odd
+
+'''num = int(input("Enter number="))
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+'''
+
+
+# leap year
+
+'''year = int(input("Enter year="))
+
+if (year % 4 == 0) or (year & 400 == 0):
+    print("Leap year")
+else:
+    print("Not leap year")'''
+
+
+# LArgest number
+
+'''a = 100
+b = 20
+c = 30
+
+if (a > b and a > c):
+    print("A is larger")
+elif (b > a and b > c):
+    print("B is larger")
+else:
+    print("C is larger")
+'''
+
+# multiplecation table
+
+n = 10
+
+for i in range(1, 11):
+    print(n , "*" ,i,'=', n * i)
