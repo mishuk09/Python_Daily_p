@@ -190,3 +190,42 @@ for i in range(1, num+1):
 print(fact)
 '''
 
+
+# pattern
+
+'''n=6
+for i in range(n):
+    print(i *  'B')
+'''
+
+
+'''str = "MAHADI HASAN MISHUK"
+str2 = "HASAN"
+print(str.split())'''
+
+'''str = "MAHADI HASAN MISHUK"
+str2 = "HASAN"
+print(str.join(str2))
+'''
+
+
+'''srt = "MAHADI HASAN MISHUK"
+print(str.lower())'''
+
+
+'''string = "hasan"
+
+print(string.capitalize())
+'''
+
+'''str = "MAHADI"
+
+a = str.replace("i","")
+print(a)
+'''
+
+'''name = "Mahadi"
+
+for i in name:
+    print(i)
+'''
