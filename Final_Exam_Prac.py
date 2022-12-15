@@ -120,15 +120,15 @@ for i in range(1, 11):
 
 
 # prime number
- 
-num = 20
+
+'''num = 20
 
 for i in range(2, num):
 
     if num % i == 0:
     
      print("Number is not prime")
-
+'''
 
 '''
 num = 29
@@ -145,3 +145,48 @@ if flag:
     print(num, "is not a prime number")
 else:
     print(num, "is a prime number")'''
+
+
+# prime number
+
+'''num = 20
+count = 0
+
+for i in range(2, num):
+    if (num % i == 0):
+        count++
+        break
+
+if count == 0:
+    print("Prime")
+else:
+    print("None Prime")
+
+'''
+
+
+# print all prime number
+# Python program to display all the prime numbers within an interval
+
+'''
+for num in range(1, 100):
+
+    if num>1:
+        for i in range(2, num):
+            if (num % i) == 0:
+                break
+        else:
+            print(num)
+'''
+
+
+# factorial number
+
+'''num = 5
+fact = 1
+
+for i in range(1, num+1):
+    fact = fact*i
+print(fact)
+'''
+
