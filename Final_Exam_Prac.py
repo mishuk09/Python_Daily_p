@@ -261,5 +261,61 @@ print(name)
 '''
 
 
+# tuple
 
 
+'''
+name=(1,2,3,4,5)
+print(Reverse(name))
+
+'''
+
+'''num = [1, 2, 3, 4, 5, 6, 7, 8]
+sum = sum(num)
+print(sum)
+'''
+
+
+'''num=[1,2,3,4,5,6,7]
+result=1
+for i in num:
+    result=result*i
+print(result)'''
+'''
+
+
+num=[1,2,5,2,4,7,3,4]
+num.sort()
+print(num)
+print("The largest number =",num[-1])'''
+
+'''
+tuple = (1, 2, 3, 4, 5, 6, 7, 6, 5, 4, 3, 2, 1)
+print(tuple.count(5))
+print(tuple.index(7))
+'''
+
+
+# python recurssion
+'''
+def name(n):
+    print(n)
+
+
+name(46)
+'''
+
+
+# maximum number by function
+
+
+'''def func(a, b, c):
+    if (a > b and a > c):
+        print("A i max")
+    elif (b > a and b > c):
+        print("B is max")
+    else:
+        print("C is max")
+
+
+func(100, 20, 30)'''
