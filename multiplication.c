@@ -6,7 +6,7 @@ int main()
 
     for (int i = 1; i < 11; i++)
     {
-        printf("%d", num * i);
+        printf("%d \n ", num * i);
     }
     return 0;
 }
