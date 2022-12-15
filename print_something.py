@@ -53,3 +53,24 @@ print(random.randint(1, 10))
 '''num = int(input("Enter km="))
 
 print(num + "Kilomete", + 1000 * num)'''
+
+
+# celcias to farenhite
+
+'''celcial = 100
+farenhite = (celcial*1.8)+32
+print(farenhite)
+'''
+
+
+# positive and negative number
+
+'''num = int(input("Enter number"))
+
+if num > 0:
+    print("Number is positive")
+else:
+    print("Number is negative")
+
+
+    '''
